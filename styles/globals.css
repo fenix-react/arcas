@@ -2,12 +2,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto';
-  background-color: #aaa;
+  background-color: #E5E5E5;
 
 }
 @media screen and (min-width: 1530px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 a {
@@ -29,7 +29,7 @@ a {
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 10px;
+    width: 3px;
   }
 
   *::-webkit-scrollbar-track {
@@ -37,7 +37,7 @@ a {
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #cf542a;
+    background: linear-gradient(to bottom,#cf542a,#9c461b);
     border-radius: 41px;
     border: 0px solid #cf542a;
   }
