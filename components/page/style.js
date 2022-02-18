@@ -9,12 +9,13 @@ const calculatePosition = (top, left) => {
 };
 
 export const Style = styled(Grid)`
-  height: 360vh;
   background-color: #D1D1D1;
   position: relative;
   width: 1533px;
   margin: auto;
   overflow: hidden;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+
 }
   h2 {
     color: #313131;

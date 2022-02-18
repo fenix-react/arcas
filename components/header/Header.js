@@ -37,6 +37,12 @@ const Header = () => {
           filter: 'opacity(.3)'
         }}></ImageCont>
       <PortButton
+        onClick={()=>{
+          window.scrollBy({
+            top: 730,
+            behavior: 'smooth'
+          })
+        }}
         startIcon={
           <ArrowLeft
             style={{

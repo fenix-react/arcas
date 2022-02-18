@@ -6,6 +6,7 @@ export const HeaderCont = styled(Grid)`
   width: 1536px;
   margin: auto;
   overflow: hidden;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
 `;
 
 export const BlackDiv = styled(Grid)`
@@ -82,6 +83,9 @@ export const PortButton = styled(Button)`
   color: #fff;
   border-radius: 23.5px;
   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
+  &:hover {
+    background-color: #e95727;
+  }
   @media screen and (max-width: 1366px) {
     left: 91vw;
     top: 82vh;
@@ -99,4 +103,3 @@ export const TextCont = styled(Grid)`
   left: 725px;
   z-index: 100;
 `;
-
