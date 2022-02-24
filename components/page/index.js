@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import React from 'react';
 import BusinesSection from './businesCard_section';
 import LogoSection from './Logo_section';
+import AboutUsSection from './about_us_section';
 import { Style } from './style';
 
 const Page = () => {
@@ -19,6 +20,7 @@ const Page = () => {
       ))}
       <LogoSection />
       <BusinesSection />
+      <AboutUsSection />
     </Style>
   );
 };

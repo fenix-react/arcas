@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import LogoCard from './logo_card';
 import { Style } from './style';
 import GrayLogo from '../../../public/static/assets/logos/grayLogo';
-import Image from 'next/image';
 
 const LOGOS = [
   { name: 'Keyon Kreative', genere: 'Photographer', iconName: 'keyon' },
@@ -30,7 +29,13 @@ const LogoSection = () => {
     <Style>
       <h2>LOGO Projects</h2>
       <Grid className="logorow" mt={7} container>
-        <Grid pl={4} container item md={4} xs={12}>
+        <Grid
+          pl={4}
+          sx={{ display: { xs: 'none', md: 'block' } }}
+          container
+          item
+          md={4}
+          xs={12}>
           <div className="logo_hover_show">
             {showLogo === false ? (
               <div className="emptyHover">

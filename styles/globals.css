@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family: 'Roboto';
   background-color: #d1d1d1;
-
 }
 @media screen and (min-width: 1530px) {
   body {
@@ -20,24 +19,23 @@ a {
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: none;
-    scrollbar-color: #cf542a #0a0a0a;
-    
-  }
+/* Firefox */
+* {
+  scrollbar-width: none;
+  scrollbar-color: #cf542a #0a0a0a;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 6px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #0a0a0a;
-  }
+*::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom,#cf542a,#9c461b);
-    border-radius: 41px;
-    border: 0px solid #cf542a;
-  }
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #cf542a, #9c461b);
+  border-radius: 41px;
+  border: 0px solid #cf542a;
+}
