@@ -94,7 +94,7 @@ export const PortButton = styled(Button)`
 
 export const Logo = styled(Grid)`
   margin-top: 50px;
-  margin-left: 85px;
+  margin-left: 91px;
 `;
 
 export const TextCont = styled(Grid)`
