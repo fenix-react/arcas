@@ -38,9 +38,9 @@ const BusinesSection = () => {
               onMouseEnter={() => {
                 setShow(e?.iconName);
               }}
-              // onMouseLeave={() => {
-              //   setShow(false);
-              // }}
+              onMouseLeave={() => {
+                setShow(false);
+              }}
               key={e?.name}
               name={e.name}
               genre={e.genere}

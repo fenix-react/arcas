@@ -4,6 +4,8 @@ import BusinesSection from './businesCard_section';
 import LogoSection from './Logo_section';
 import AboutUsSection from './about_us_section';
 import { Style } from './style';
+import ContactUs from './contact_us_section';
+import Footer from './footer';
 
 const Page = () => {
   return (
@@ -21,6 +23,8 @@ const Page = () => {
       <LogoSection />
       <BusinesSection />
       <AboutUsSection />
+      <ContactUs />
+      <Footer />
     </Style>
   );
 };

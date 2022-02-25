@@ -67,7 +67,7 @@ const LogoCard = ({
     <Style
       onMouseLeave={() => {
         setShow(false);
-        // onMouseLeave();
+        onMouseLeave();
       }}
       onMouseEnter={() => {
         setShow(true);

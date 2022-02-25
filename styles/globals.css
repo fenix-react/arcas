@@ -28,6 +28,7 @@ a {
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 
 *::-webkit-scrollbar-track {

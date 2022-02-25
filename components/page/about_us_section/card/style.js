@@ -9,7 +9,36 @@ export const Style = styled(Grid)`
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
     clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
     position: absolute;
+    transition: all 0.6s ease;
     left: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    text-align: center;
+    h4 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      margin: auto;
+      width: 100px;
+      transition: all 0.6s ease;
+      margin-top: 60%;
+      text-align: center;
+    }
+    .low-margin {
+      margin-top: 50%;
+    }
+    h5 {
+      /* visibility: hidden; */
+      font-size: 11px;
+      font-weight: 400;
+      color: #fff;
+      margin: 0;
+      width: 150px;
+      transition: all 0.6s ease;
+      opacity: 0;
+    }
   }
   .orange {
     height: 240px;
@@ -32,5 +61,22 @@ export const Style = styled(Grid)`
   }
   &:hover .black {
     background-color: #1c1c1c;
+    transition: all 0.6s ease;
+  }
+  &:hover h4 {
+    font-size: 16px;
+    transition: all 0.6s ease;
+    margin-top: 30%;
+  }
+  &:hover .low-margin {
+    font-size: 16px;
+    transition: all 0.6s ease;
+    margin-top: 30%;
+  }
+  &:hover h5 {
+    /* visibility: visible; */
+    opacity: 1;
+    margin-top: 20%;
+    transition: all 0.6s ease;
   }
 `;
